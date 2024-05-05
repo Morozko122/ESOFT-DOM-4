@@ -1,0 +1,10 @@
+.userCard ~ .userCard{
+    margin-top: 8px;
+}
+.userCard{
+    width: 100%;
+    background-color: #85004B;
+    border-radius: 14px;
+    padding: 5px;
+    text-align: left;
+}

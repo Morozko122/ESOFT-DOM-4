@@ -18,8 +18,7 @@ export default function CountdownTimer({timeToCountdown}){
     
     return (
       <div className="timer">
-        {time > 0 ? (<p>Обраный отсчет: {time}</p>):(<p>Время вышло</p>)}
-        
+        {time > 0 ? (<p>Обраный отсчет: {time}</p>):(<p>Время вышло</p>)}     
       </div>
     );
 }
